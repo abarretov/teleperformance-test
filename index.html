@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teleperformance Test</title>
+    <meta name="description" content="" />
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
+    <link rel="stylesheet" href="css/main.min.css">
+    <script src="js/main.min.js" defer></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="wrapper">
+        <div class="container">
+          <div class="header__top">
+            <a class="brand" href="./index.html">
+              <div class="brand__logo">
+                <img src="./assets/images/logo.png" alt="logo CSS" />
+              </div>
+              <div class="brand__content">
+                <span class="brand__title">Master en CSS</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper bg--secondary">
+        <div class="container">
+          <div class="header__bottom">
+            <button class="hamburger"><span class="hamburger__icon"></span></button>
+            <div class="navbar">
+              <nav class="navbar__nav" id="navbarNav">
+                <a class="navbar__item" href="./">Inicio</a>
+                <a class="navbar__item" href="./contenido.html">Contenido</a>
+                <a class="navbar__item" href="./requerimientos.html">Requerimientos</a>
+                <a class="navbar__item" href="./lenguajes.html">Lenguajes</a>
+                <a class="navbar__item" href="./frameworks.html">Frameworks</a>
+                <a class="navbar__item" href="./proyectos.html">Proyectos</a>
+                <a class="navbar__item" href="./instructor.html">El instructor</a>
+                <a class="navbar__item" href="./resenas.html">Reseñas</a>
+                <a class="navbar__item" href="./blog.html">Blog</a>
+                <a class="navbar__item" href="./contacto.html">Contacto</a>
+              </nav>
+              <div class="navbar__user">
+                <span id="navbarUserName">teleperformance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- content-->
+    <div class="wrapper">
+      <div class="container">
+        <div class="row py-3">
+          <!-- sidebar -->
+          <aside class="sidebar col-md-3" id="sidebar">
+            <div class="sidebar__login">
+              <h3 class="sidebar__title">Entrar a la web</h3>
+              <form class="form" action="">
+                <div class="form__group">
+                  <label for="userName">Usuario:</label>
+                  <input id="userName" type="text" required />
+                </div>
+                <div class="form__group">
+                  <label for="userPassword">Contraseña:</label>
+                  <input id="userPassword" type="password" required />
+                </div>
+                <div class="form__group">
+                  <button class="form__button" type="submit">Entrar</button>
+                </div>
+              </form>
+              <ul class="sidebar__list">
+                <li>
+                  <a href="https://www.google.com/" target="_blank">Zona de Alumnos</a>
+                </li>
+                <li>
+                  <a href="https://www.google.com/" target="_blank">Zona del Profesor</a>
+                </li>
+                <li>
+                  <a href="https://www.google.com/" target="_blank">
+                    Acceso a calificaciones
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="sidebar__links">
+              <h3 class="sidebar__title">Enlaces de interés</h3>
+              <ul class="sidebar__list sidebar__list--bullets">
+                <li>
+                  <a href="https://www.google.com/" target="_blank">
+                    Master en Javascript
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.google.com/" target="_blank">Master en PHP</a>
+                </li>
+                <li>
+                  <a href="https://www.google.com/" target="_blank">
+                    Master en Frameworks JS
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.google.com/" target="_blank">victorroblesweb.es</a>
+                </li>
+              </ul>
+            </div>
+            <div class="sidebar__reflection">
+              <h3 class="sidebar__title sidebar__title--no-frame">Frase del día:</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, error.</p>
+              <a href="https://www.google.com/" target="_blank">Leer más frases</a>
+            </div>
+            <button class="sidebar__btn" id="sidebarBtn"></button>
+          </aside>
+          <!-- main -->
+          <main class="news col-xs-12 col-md-9">
+            <section class="news__content">
+              <h2 class="news__title">Noticias de front-end</h2>
+              <hr />
+              <ul class="news__list">
+                <li class="item">
+                  <p class="item__body">
+                    <span class="item__title">Título de la entrada</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in modi
+                    sequi. Maiores beatae cupiditate animi aliquam quos suscipit incidunt!
+                    Laboriosam, sunt voluptatibus consectetur nisi, omnis non ipsum modi
+                    voluptatum facere facilis sint tenetur.
+                  </p>
+                  <div class="item__footer">
+                    <span class="item__date">[13-13-2013. Paco]</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <p class="item__body">
+                    <span class="item__title">Título de la entrada</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in modi
+                    sequi. Maiores beatae cupiditate animi aliquam quos suscipit incidunt!
+                    Laboriosam, sunt voluptatibus consectetur nisi, omnis non ipsum modi
+                    voluptatum facere facilis sint tenetur.
+                  </p>
+                  <div class="item__footer">
+                    <span class="item__date">[13-13-2013. Paco]</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <p class="item__body">
+                    <span class="item__title">Título de la entrada</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in modi
+                    sequi. Maiores beatae cupiditate animi aliquam quos suscipit incidunt!
+                    Laboriosam, sunt voluptatibus consectetur nisi, omnis non ipsum modi
+                    voluptatum facere facilis sint tenetur.
+                  </p>
+                  <div class="item__footer">
+                    <span class="item__date">[13-13-2013. Paco]</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <p class="item__body">
+                    <span class="item__title">Título de la entrada</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in modi
+                    sequi. Maiores beatae cupiditate animi aliquam quos suscipit incidunt!
+                    Laboriosam, sunt voluptatibus consectetur nisi, omnis non ipsum modi
+                    voluptatum facere facilis sint tenetur.
+                  </p>
+                  <div class="item__footer">
+                    <span class="item__date">[13-13-2013. Paco]</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <p class="item__body">
+                    <span class="item__title">Título de la entrada</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in modi
+                    sequi. Maiores beatae cupiditate animi aliquam quos suscipit incidunt!
+                    Laboriosam, sunt voluptatibus consectetur nisi, omnis non ipsum modi
+                    voluptatum facere facilis sint tenetur.
+                  </p>
+                  <div class="item__footer">
+                    <span class="item__date">[13-13-2013. Paco]</span>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <section class="news__content">
+              <h2 class="news__title color--red">Noticias de back-end</h2>
+              <hr />
+              <ul class="news__list">
+                <li class="item">
+                  <p class="item__body">
+                    <span class="item__title">Título de la entrada</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in modi
+                    sequi. Maiores beatae cupiditate animi aliquam quos suscipit incidunt!
+                    Laboriosam, sunt voluptatibus consectetur nisi, omnis non ipsum modi
+                    voluptatum facere facilis sint tenetur.
+                  </p>
+                  <div class="item__footer">
+                    <span class="item__date">[13-13-2013. Paco]</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <p class="item__body">
+                    <span class="item__title">Título de la entrada</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in modi
+                    sequi. Maiores beatae cupiditate animi aliquam quos suscipit incidunt!
+                    Laboriosam, sunt voluptatibus consectetur nisi, omnis non ipsum modi
+                    voluptatum facere facilis sint tenetur.
+                  </p>
+                  <div class="item__footer">
+                    <span class="item__date">[13-13-2013. Paco]</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <p class="item__body">
+                    <span class="item__title">Título de la entrada</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in modi
+                    sequi. Maiores beatae cupiditate animi aliquam quos suscipit incidunt!
+                    Laboriosam, sunt voluptatibus consectetur nisi, omnis non ipsum modi
+                    voluptatum facere facilis sint tenetur.
+                  </p>
+                  <div class="item__footer">
+                    <span class="item__date">[13-13-2013. Paco]</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <p class="item__body">
+                    <span class="item__title">Título de la entrada</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in modi
+                    sequi. Maiores beatae cupiditate animi aliquam quos suscipit incidunt!
+                    Laboriosam, sunt voluptatibus consectetur nisi, omnis non ipsum modi
+                    voluptatum facere facilis sint tenetur.
+                  </p>
+                  <div class="item__footer">
+                    <span class="item__date">[13-13-2013. Paco]</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <p class="item__body">
+                    <span class="item__title">Título de la entrada</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in modi
+                    sequi. Maiores beatae cupiditate animi aliquam quos suscipit incidunt!
+                    Laboriosam, sunt voluptatibus consectetur nisi, omnis non ipsum modi
+                    voluptatum facere facilis sint tenetur.
+                  </p>
+                  <div class="item__footer">
+                    <span class="item__date">[13-13-2013. Paco]</span>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <section class="news__content">
+              <h2 class="news__title color--yellow">Noticias del instructor</h2>
+              <hr />
+              <ul class="news__list">
+                <li class="item">
+                  <p class="item__body">
+                    <span class="item__title">Título de la entrada</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in modi
+                    sequi. Maiores beatae cupiditate animi aliquam quos suscipit incidunt!
+                    Laboriosam, sunt voluptatibus consectetur nisi, omnis non ipsum modi
+                    voluptatum facere facilis sint tenetur.
+                  </p>
+                  <div class="item__footer">
+                    <span class="item__date">[13-13-2013. Paco]</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <p class="item__body">
+                    <span class="item__title">Título de la entrada</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in modi
+                    sequi. Maiores beatae cupiditate animi aliquam quos suscipit incidunt!
+                    Laboriosam, sunt voluptatibus consectetur nisi, omnis non ipsum modi
+                    voluptatum facere facilis sint tenetur.
+                  </p>
+                  <div class="item__footer">
+                    <span class="item__date">[13-13-2013. Paco]</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <p class="item__body">
+                    <span class="item__title">Título de la entrada</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in modi
+                    sequi. Maiores beatae cupiditate animi aliquam quos suscipit incidunt!
+                    Laboriosam, sunt voluptatibus consectetur nisi, omnis non ipsum modi
+                    voluptatum facere facilis sint tenetur.
+                  </p>
+                  <div class="item__footer">
+                    <span class="item__date">[13-13-2013. Paco]</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <p class="item__body">
+                    <span class="item__title">Título de la entrada</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in modi
+                    sequi. Maiores beatae cupiditate animi aliquam quos suscipit incidunt!
+                    Laboriosam, sunt voluptatibus consectetur nisi, omnis non ipsum modi
+                    voluptatum facere facilis sint tenetur.
+                  </p>
+                  <div class="item__footer">
+                    <span class="item__date">[13-13-2013. Paco]</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <p class="item__body">
+                    <span class="item__title">Título de la entrada</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in modi
+                    sequi. Maiores beatae cupiditate animi aliquam quos suscipit incidunt!
+                    Laboriosam, sunt voluptatibus consectetur nisi, omnis non ipsum modi
+                    voluptatum facere facilis sint tenetur.
+                  </p>
+                  <div class="item__footer">
+                    <span class="item__date">[13-13-2013. Paco]</span>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <section class="news__more">
+              <a href="https://www.google.com/" target="_blank">
+                [Ver historico de noticias]
+              </a>
+            </section>
+          </main>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer bg--secondary">
+      <div class="wrapper">
+        <div class="container">
+          <div class="footer__content">
+            <p class="footer__author">© Desarrollado por Víctor Robles WEB</p>
+            <p class="footer__more">
+              Más contenido y formación de desarrollo web en
+              <a href="https://www.google.com/" target="_blank">
+                victorroblesweb.es/academy
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
